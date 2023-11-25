@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 7
+names: ['Eye', 'Face', 'MakeUp', 'Mouth', 'Nose', 'Tooth', 'Topping']
+
+roboflow:
+  workspace: face-eyes-mouth-nose
+  project: face-recognition-1-2
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/face-eyes-mouth-nose/face-recognition-1-2/dataset/1
